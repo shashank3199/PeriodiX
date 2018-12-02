@@ -143,84 +143,84 @@ This Folder contains the Backup/Test Files that were used in the preparation of 
 | void slantellipse ( float m , int s1 , int s2 ) ; | Used to make  Slanted Ellipse. |
 
 ## Output Screens
-![IMG-1](./.Output/1.JPG)<br><br>
-![IMG-2](./.Output/2.JPG)<br><br>
-![IMG-3](./.Output/2.JPG)<br><br>
-![IMG-4](./.Output/Signup - 3/3 a.JPG)<br><br>
-![IMG-5](./.Output/Signup - 3/3 b.JPG)<br><br>
-![IMG-6](./.Output/Signup - 3/3 c.JPG)<br><br>
-![IMG-7](./.Output/Signup - 3/3 d.JPG)<br><br>
-![IMG-8](./.Output/Login - NA - 4/4 a.JPG)<br><br>
-![IMG-9](./.Output/Login - NA - 4/4 b.JPG)<br><br>
-![IMG-10](./.Output/Login - NA - 4/4 c.JPG)<br><br>
-![IMG-11](./.Output/Login - NA - 4/4 d.JPG)<br><br>
-![IMG-12](./.Output/Login - A - 5/5 a.JPG)<br><br>
-![IMG-13](./.Output/Login - A - 5/5 b.JPG)<br><br>
-![IMG-14](./.Output/Login - A - 5/Game Database/5 b i.JPG)<br><br>
-![IMG-15](./.Output/Login - A - 5/Game Database/View Record/5 b ii.JPG)<br><br>
-![IMG-16](./.Output/Login - A - 5/Game Database/View Record/5 b iii.JPG)<br><br>
-![IMG-17](./.Output/Login - A - 5/Game Database/View Record/5 b iv.JPG)<br><br>
-![IMG-18](./.Output/Login - A - 5/Game Database/View Record/5 b v.JPG)<br><br>
-![IMG-19](./.Output/Login - A - 5/Game Database/View Record/5 b vi.JPG)<br><br>
-![IMG-20](./.Output/Login - A - 5/Game Database/View Record/5 b vii.JPG)<br><br>
-![IMG-21](./.Output/Login - A - 5/Game Database/View Record/5 b viii.JPG)<br><br>
-![IMG-22](./.Output/Login - A - 5/Game Database/View Record/5 b fail.JPG)<br><br>
-![IMG-23](./.Output/Login - A - 5/Game Database/View Record/5 b fail .Output.JPG)<br><br>
-![IMG-24](./.Output/Login - A - 5/Game Database/reset data/5 b x.JPG)<br><br>
-![IMG-25](./.Output/Login - A - 5/Game Database/reset data/5 b xi.JPG)<br><br>
-![IMG-26](./.Output/Login - A - 5/Game Database/5 b xii.JPG)<br><br>
-![IMG-27](./.Output/Login - A - 5/User Database/5 b 1.JPG)<br><br>
-![IMG-28](./.Output/Login - A - 5/User Database/list of users/5 b 2.JPG)<br><br>
-![IMG-29](./.Output/Login - A - 5/User Database/list of users/5 b 2 a.JPG)<br><br>
-![IMG-30](./.Output/Login - A - 5/User Database/list of users/5 b 2 b.JPG)<br><br>
-![IMG-31](./.Output/Login - A - 5/User Database/list of users/5 b 2 c.JPG)<br><br>
-![IMG-32](./.Output/Login - A - 5/User Database/Mod user rights/5 b 3.JPG)<br><br>
-![IMG-33](./.Output/Login - A - 5/User Database/Mod user rights/5 b 3 a.JPG)<br><br>
-![IMG-34](./.Output/Login - A - 5/User Database/Mod user rights/5 b 3 b.JPG)<br><br>
-![IMG-35](./.Output/Login - A - 5/User Database/Mod user rights/5 b 3 c.JPG)<br><br>
-![IMG-36](./.Output/Login - A - 5/User Database/Delete user/5 b 4.JPG)<br><br>
-![IMG-37](./.Output/Login - A - 5/User Database/Delete user/5 b 4 a.JPG)<br><br>
-![IMG-38](./.Output/Login - A - 5/User Database/Delete user/5 b 4 b.JPG)<br><br>
-![IMG-39](./.Output/Login - A - 5/User Database/Delete user/5 b 4 c.JPG)<br><br>
-![IMG-40](./.Output/Login - A - 5/5 c.JPG)<br><br>
-![IMG-41](./.Output/Login - A - 5/6.JPG)<br><br>
-![IMG-42](./.Output/Main menu -6/a - game/6 a.JPG)<br><br>
-![IMG-43](./.Output/Main menu -6/a - game/6 a 1.JPG)<br><br>
-![IMG-44](./.Output/Main menu -6/a - game/6 a 2.JPG)<br><br>
-![IMG-45](./.Output/Main menu -6/a - game/6 a 2 a.JPG)<br><br>
-![IMG-46](./.Output/Main menu -6/a - game/6 a 2 b.JPG)<br><br>
-![IMG-47](./.Output/Main menu -6/a - game/6 a 2 c.JPG)<br><br>
-![IMG-48](./.Output/Main menu -6/a - game/6 a 2 d.JPG)<br><br>
-![IMG-49](./.Output/Main menu -6/a - game/6 a 2 e.JPG)<br><br>
-![IMG-50](./.Output/Main menu -6/a - game/6 a 2 f.JPG)<br><br>
-![IMG-51](./.Output/Main menu -6/a - game/6 a 2 g.JPG)<br><br>
-![IMG-52](./.Output/Main menu -6/a - game/6 a 2 h.JPG)<br><br>
-![IMG-53](./.Output/Main menu -6/a - game/6 a 2 i.JPG)<br><br>
-![IMG-54](./.Output/Main menu -6/a - game/6 a 2 j.JPG)<br><br>
-![IMG-55](./.Output/Main menu -6/b - periodic table/6 b.JPG)<br><br>
-![IMG-56](./.Output/Main menu -6/b - periodic table/6 b 1.JPG)<br><br>
-![IMG-57](./.Output/Main menu -6/b - periodic table/6 b 2.JPG)<br><br>
-![IMG-58](./.Output/Main menu -6/b - periodic table/6 b 3.JPG)<br><br>
-![IMG-59](./.Output/Main menu -6/b - periodic table/6 b 4.JPG)<br><br>
-![IMG-60](./.Output/Main menu -6/c - statistics/6 c.JPG)<br><br>
-![IMG-61](./.Output/Main menu -6/c - statistics/6 c 1.JPG)<br><br>
-![IMG-62](./.Output/Main menu -6/d - settings/6 d.JPG)<br><br>
-![IMG-63](./.Output/Main menu -6/d - settings/6 d a.JPG)<br><br>
-![IMG-64](./.Output/Main menu -6/d - settings/change pass/6 d 1.JPG)<br><br>
-![IMG-65](./.Output/Main menu -6/d - settings/change pass/6 d 1 a.JPG)<br><br>
-![IMG-66](./.Output/Main menu -6/d - settings/change pass/6 d 1 b.JPG)<br><br>
-![IMG-67](./.Output/Main menu -6/d - settings/clear stats/6 d 2.JPG)<br><br>
-![IMG-68](./.Output/Main menu -6/d - settings/clear stats/6 d 2 a.JPG)<br><br>
-![IMG-69](./.Output/Main menu -6/d - settings/clear stats/6 d 2 b.JPG)<br><br>
-![IMG-70](./.Output/Main menu -6/d - settings/clear stats/6 d 2 c.JPG)<br><br>
-![IMG-71](./.Output/Main menu -6/d - settings/del acc/6 d 3.JPG)<br><br>
-![IMG-72](./.Output/Main menu -6/d - settings/del acc/6 d 3 a.JPG)<br><br>
-![IMG-73](./.Output/Main menu -6/d - settings/del acc/6 d 3 b.JPG)<br><br>
-![IMG-74](./.Output/Main menu -6/d - settings/del acc/6 d 3 c.JPG)<br><br>
-![IMG-75](./.Output/Main menu -6/e - logout/6 e 1.JPG)<br><br>
-![IMG-76](./.Output/Main menu -6/e - logout/6 e 1 a.JPG)<br><br>
-![IMG-77](./.Output/Main menu -6/f - exit/6 f 1.JPG)<br><br>
-![IMG-78](./.Output/Main menu -6/f - exit/6 f 1 a.JPG)<br>
+![IMG-1](./.Output/1.jpg)<br><br>
+![IMG-2](./.Output/2.jpg)<br><br>
+![IMG-3](./.Output/2.jpg)<br><br>
+![IMG-4](./.Output/Signup - 3/3 a.jpg)<br><br>
+![IMG-5](./.Output/Signup - 3/3 b.jpg)<br><br>
+![IMG-6](./.Output/Signup - 3/3 c.jpg)<br><br>
+![IMG-7](./.Output/Signup - 3/3 d.jpg)<br><br>
+![IMG-8](./.Output/Login - NA - 4/4 a.jpg)<br><br>
+![IMG-9](./.Output/Login - NA - 4/4 b.jpg)<br><br>
+![IMG-10](./.Output/Login - NA - 4/4 c.jpg)<br><br>
+![IMG-11](./.Output/Login - NA - 4/4 d.jpg)<br><br>
+![IMG-12](./.Output/Login - A - 5/5 a.jpg)<br><br>
+![IMG-13](./.Output/Login - A - 5/5 b.jpg)<br><br>
+![IMG-14](./.Output/Login - A - 5/Game Database/5 b i.jpg)<br><br>
+![IMG-15](./.Output/Login - A - 5/Game Database/View Record/5 b ii.jpg)<br><br>
+![IMG-16](./.Output/Login - A - 5/Game Database/View Record/5 b iii.jpg)<br><br>
+![IMG-17](./.Output/Login - A - 5/Game Database/View Record/5 b iv.jpg)<br><br>
+![IMG-18](./.Output/Login - A - 5/Game Database/View Record/5 b v.jpg)<br><br>
+![IMG-19](./.Output/Login - A - 5/Game Database/View Record/5 b vi.jpg)<br><br>
+![IMG-20](./.Output/Login - A - 5/Game Database/View Record/5 b vii.jpg)<br><br>
+![IMG-21](./.Output/Login - A - 5/Game Database/View Record/5 b viii.jpg)<br><br>
+![IMG-22](./.Output/Login - A - 5/Game Database/View Record/5 b fail.jpg)<br><br>
+![IMG-23](./.Output/Login - A - 5/Game Database/View Record/5 b fail .Output.jpg)<br><br>
+![IMG-24](./.Output/Login - A - 5/Game Database/reset data/5 b x.jpg)<br><br>
+![IMG-25](./.Output/Login - A - 5/Game Database/reset data/5 b xi.jpg)<br><br>
+![IMG-26](./.Output/Login - A - 5/Game Database/5 b xii.jpg)<br><br>
+![IMG-27](./.Output/Login - A - 5/User Database/5 b 1.jpg)<br><br>
+![IMG-28](./.Output/Login - A - 5/User Database/list of users/5 b 2.jpg)<br><br>
+![IMG-29](./.Output/Login - A - 5/User Database/list of users/5 b 2 a.jpg)<br><br>
+![IMG-30](./.Output/Login - A - 5/User Database/list of users/5 b 2 b.jpg)<br><br>
+![IMG-31](./.Output/Login - A - 5/User Database/list of users/5 b 2 c.jpg)<br><br>
+![IMG-32](./.Output/Login - A - 5/User Database/Mod user rights/5 b 3.jpg)<br><br>
+![IMG-33](./.Output/Login - A - 5/User Database/Mod user rights/5 b 3 a.jpg)<br><br>
+![IMG-34](./.Output/Login - A - 5/User Database/Mod user rights/5 b 3 b.jpg)<br><br>
+![IMG-35](./.Output/Login - A - 5/User Database/Mod user rights/5 b 3 c.jpg)<br><br>
+![IMG-36](./.Output/Login - A - 5/User Database/Delete user/5 b 4.jpg)<br><br>
+![IMG-37](./.Output/Login - A - 5/User Database/Delete user/5 b 4 a.jpg)<br><br>
+![IMG-38](./.Output/Login - A - 5/User Database/Delete user/5 b 4 b.jpg)<br><br>
+![IMG-39](./.Output/Login - A - 5/User Database/Delete user/5 b 4 c.jpg)<br><br>
+![IMG-40](./.Output/Login - A - 5/5 c.jpg)<br><br>
+![IMG-41](./.Output/Login - A - 5/6.jpg)<br><br>
+![IMG-42](./.Output/Main menu -6/a - game/6 a.jpg)<br><br>
+![IMG-43](./.Output/Main menu -6/a - game/6 a 1.jpg)<br><br>
+![IMG-44](./.Output/Main menu -6/a - game/6 a 2.jpg)<br><br>
+![IMG-45](./.Output/Main menu -6/a - game/6 a 2 a.jpg)<br><br>
+![IMG-46](./.Output/Main menu -6/a - game/6 a 2 b.jpg)<br><br>
+![IMG-47](./.Output/Main menu -6/a - game/6 a 2 c.jpg)<br><br>
+![IMG-48](./.Output/Main menu -6/a - game/6 a 2 d.jpg)<br><br>
+![IMG-49](./.Output/Main menu -6/a - game/6 a 2 e.jpg)<br><br>
+![IMG-50](./.Output/Main menu -6/a - game/6 a 2 f.jpg)<br><br>
+![IMG-51](./.Output/Main menu -6/a - game/6 a 2 g.jpg)<br><br>
+![IMG-52](./.Output/Main menu -6/a - game/6 a 2 h.jpg)<br><br>
+![IMG-53](./.Output/Main menu -6/a - game/6 a 2 i.jpg)<br><br>
+![IMG-54](./.Output/Main menu -6/a - game/6 a 2 j.jpg)<br><br>
+![IMG-55](./.Output/Main menu -6/b - periodic table/6 b.jpg)<br><br>
+![IMG-56](./.Output/Main menu -6/b - periodic table/6 b 1.jpg)<br><br>
+![IMG-57](./.Output/Main menu -6/b - periodic table/6 b 2.jpg)<br><br>
+![IMG-58](./.Output/Main menu -6/b - periodic table/6 b 3.jpg)<br><br>
+![IMG-59](./.Output/Main menu -6/b - periodic table/6 b 4.jpg)<br><br>
+![IMG-60](./.Output/Main menu -6/c - statistics/6 c.jpg)<br><br>
+![IMG-61](./.Output/Main menu -6/c - statistics/6 c 1.jpg)<br><br>
+![IMG-62](./.Output/Main menu -6/d - settings/6 d.jpg)<br><br>
+![IMG-63](./.Output/Main menu -6/d - settings/6 d a.jpg)<br><br>
+![IMG-64](./.Output/Main menu -6/d - settings/change pass/6 d 1.jpg)<br><br>
+![IMG-65](./.Output/Main menu -6/d - settings/change pass/6 d 1 a.jpg)<br><br>
+![IMG-66](./.Output/Main menu -6/d - settings/change pass/6 d 1 b.jpg)<br><br>
+![IMG-67](./.Output/Main menu -6/d - settings/clear stats/6 d 2.jpg)<br><br>
+![IMG-68](./.Output/Main menu -6/d - settings/clear stats/6 d 2 a.jpg)<br><br>
+![IMG-69](./.Output/Main menu -6/d - settings/clear stats/6 d 2 b.jpg)<br><br>
+![IMG-70](./.Output/Main menu -6/d - settings/clear stats/6 d 2 c.jpg)<br><br>
+![IMG-71](./.Output/Main menu -6/d - settings/del acc/6 d 3.jpg)<br><br>
+![IMG-72](./.Output/Main menu -6/d - settings/del acc/6 d 3 a.jpg)<br><br>
+![IMG-73](./.Output/Main menu -6/d - settings/del acc/6 d 3 b.jpg)<br><br>
+![IMG-74](./.Output/Main menu -6/d - settings/del acc/6 d 3 c.jpg)<br><br>
+![IMG-75](./.Output/Main menu -6/e - logout/6 e 1.jpg)<br><br>
+![IMG-76](./.Output/Main menu -6/e - logout/6 e 1 a.jpg)<br><br>
+![IMG-77](./.Output/Main menu -6/f - exit/6 f 1.jpg)<br><br>
+![IMG-78](./.Output/Main menu -6/f - exit/6 f 1 a.jpg)<br>
 
 ## Bibliography
 - http://www.science.co.il/elements/.
