@@ -1,0 +1,141 @@
+#include<iostream.h>
+#include<conio.h>
+#include<graphics.h>
+#include<process.h>
+
+ int options()
+ {
+  char s1[14]={'w',' ',26,' ','S','c','r','o','l','l',' ','U','p','\0'};
+  char s2[16]={'s',' ',26,' ','S','c','r','o','l','l',' ','D','o','w','n','\0'};
+  int y=200;
+  char ch;
+  int a,b,c,d;
+  a=b=c=d=15;
+  do
+  {
+   settextstyle(0,0,4);
+   outtextxy(320-(textwidth("Periodic Table")/2),100-(textheight("Periodic Table")/2),"Periodic Table");
+   settextstyle(0,0,1);
+   outtextxy(320-(textwidth(s1)/2),440-(textheight(s1)/2),s1);
+   outtextxy(320-(textwidth(s2)/2),460-(textheight(s2)/2),s2);
+   settextstyle(0,0,2);
+   if(ch=='w'&& y>200)
+    y-=50;
+   if(ch=='s'&& y<350)
+    y+=50;
+   switch(y)
+   {
+    case 200 : a=4;
+	       b=c=d=15;
+	       break;
+    case 250 : b=4;
+	       a=c=d=15;
+	       break;
+    case 300 : c=4;
+	       b=a=d=15;
+	       break;
+    case 350 : d=4;
+	       b=c=a=15;
+	       break;
+    default: a=b=c=d=15;
+   }
+    setcolor(a);
+    outtextxy(320-(textwidth("Play")/2),200-(textheight("Play")/2),"Play");
+    setcolor(b);
+    outtextxy(320-(textwidth("Search")/2),250-(textheight("Search")/2),"Search");
+    setcolor(c);
+    outtextxy(320-(textwidth("Edit")/2),300-(textheight("Edit")/2),"Edit");
+    setcolor(d);
+    outtextxy(320-(textwidth("Exit")/2),350-(textheight("Exit")/2),"Exit");
+    ch=getch();
+    cleardevice();
+    setcolor(15);
+  }while(ch!='0' && ch!=13 && ch!=27);
+ if(ch==13)
+ {
+  switch(y)
+  {
+   case 200 : return 1;
+   case 250 : return 2;
+   case 300 : return 3;
+   case 350 : exit(0);
+  }
+ }
+}
+
+int edit()
+{
+  int y=160;
+  char ch;
+  int a,b,c,d;
+  a=b=c=d=15;
+  do
+  {
+   settextstyle(0,0,3);
+   outtextxy(320-(textwidth("Edit")/2),80-(textheight("Edit")/2),"Edit");
+   settextstyle(0,0,2);
+   if(ch=='w'&& y>160)
+    y-=80;
+   if(ch=='s'&& y<400)
+    y+=80;
+   switch(y)
+   {
+    case 160 : a=4;
+	       b=c=d=15;
+	       break;
+    case 240 : b=4;
+	       a=c=d=15;
+	       break;
+    case 320 : c=4;
+	       b=a=d=15;
+	       break;
+    case 400 : d=4;
+	       b=c=a=15;
+	       break;
+    default: a=b=c=d=15;
+   }
+    setcolor(a);
+    outtextxy(320-(textwidth("Add")/2),160-(textheight("Add")/2),"Add");
+    setcolor(b);
+    outtextxy(320-(textwidth("Modify")/2),240-(textheight("Modify")/2),"Modify");
+    setcolor(c);
+    outtextxy(320-(textwidth("Delete")/2),320-(textheight("Delete")/2),"Delete");
+    setcolor(d);
+    outtextxy(320-(textwidth("Return")/2),400-(textheight("Return")/2),"Return");
+    ch=getch();
+   cleardevice();
+   setcolor(15);
+  }while(ch!='0'&&ch!=13&&ch!=27);
+ if(ch==13)
+ {
+  switch(y)
+  {
+   case 160 : return 1;
+   case 240 : return 2;
+   case 320 : return 3;
+   case 400 : return 4;
+  }
+}
+
+
+
+
+}
+void main()
+{
+ clrscr();
+ int gd=DETECT,gm;
+ initgraph(&gd,&gm,"c:\\tc\\bgi");
+ int ch=0,ch1=0;
+ game:
+ ch=options();
+ if(ch==3)
+ ch1=edit();
+ if(ch1==4)
+ goto game;
+ closegraph();
+ cout<<ch1;
+ getch();
+}
+
+

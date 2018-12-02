@@ -1,0 +1,92 @@
+#include<iostream.h>
+#include<conio.h>
+#include<graphics.h>
+#include<string.h>
+#include<stdio.h>
+class element;
+class element
+{
+ char name[20],sym[4];
+ int at_no,at_ma;
+ char rmrk[5][50];
+ void getrmrk();
+ public:
+ void accept();
+ void retprop(char [],char [],int &,int &,char [5][50]);
+ void display();
+};
+
+void element :: display()
+{
+  cout<<name<<endl<<sym<<endl<<at_no<<endl<<at_ma<<endl;
+
+ for(int i=0;i<5 && rmrk[i][0]!='#';i++)
+ {
+  cout<<rmrk[i]<<endl;
+ }
+}
+
+void element :: getrmrk()
+{
+ int i=0;
+ char ch[5];
+ int ans=0;
+ do
+ {
+ gets(rmrk[i]);
+ if(i!=4)
+ {
+ cout<<"Enter More: ";
+ cin>>ch;
+ if(strcmpi(ch,"No")==0)
+  {
+   ans=-1;
+   rmrk[i+1][0]='#';
+  }
+ }
+ i++;
+ }while(ans!=-1&&i<5);
+}
+
+
+void element :: accept()
+{
+ cout<<"Enter name: ";
+ gets(name);
+ cout<<"Enter Symbol: ";
+ cin>>sym;
+ cout<<"Enter Atomic Number: ";
+ cin>>at_no;
+ cout<<"Enter Atomic Mass: ";
+ cin>>at_ma;
+ cout<<"Enter Other Information -\n ";
+ getrmrk();
+}
+
+void element :: retprop(char n[],char s[],int &an,int &am,char rmk[5][50])
+{
+ strcpy(n,name);
+ strcpy(s,sym);
+ an=at_no;
+ am=at_ma;
+ int i;
+ for(i=0;i<5;i++)
+ {
+  strcpy(rmk[i],rmrk[i]);
+ }
+}
+
+
+void main()
+{
+ clrscr();
+ element e;
+ e.accept();
+ clrscr();
+ char name[20],sym[4];
+ int at_no,at_ma;
+ char rmrk[5][50];
+ e.retprop(name,sym,at_no,at_ma,rmrk);
+ cout<<name;
+ getch();
+}

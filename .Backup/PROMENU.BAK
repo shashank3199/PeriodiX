@@ -1,0 +1,75 @@
+#include<iostream.h>
+#include<conio.h>
+#include<graphics.h>
+#include<process.h>
+ int options()
+ {
+  int y=200;
+  int a,b,c,d;
+  a=b=c=d=15;
+  char ch;
+  do
+  {
+   settextstyle(0,0,4);
+   outtextxy(320-(textwidth("Periodic Table")/2),100-(textheight("Periodic Table")/2),"Periodic Table");
+   settextstyle(0,0,2);
+   if(ch=='w'&& y>200)
+    y-=50;
+   if(ch=='s'&& y<350)
+    y+=50;
+   switch(y)
+   {
+    case 200 : a=4;
+	       b=c=d=15;
+	       break;
+    case 250 : b=4;
+	       a=c=d=15;
+	       break;
+    case 300 : c=4;
+	       b=a=d=15;
+	       break;
+    case 350 : d=4;
+	       b=c=a=15;
+	       break;
+    default: a=b=c=d=15;
+   }
+    setcolor(a);
+    outtextxy(320-(textwidth("Play")/2),200-(textheight("Play")/2),"Play");
+    setcolor(b);
+    outtextxy(320-(textwidth("Search")/2),250-(textheight("Search")/2),"Search");
+    setcolor(c);
+    outtextxy(320-(textwidth("Edit")/2),300-(textheight("Edit")/2),"Edit");
+    setcolor(d);
+    outtextxy(320-(textwidth("Exit")/2),350-(textheight("Exit")/2),"Exit");
+    ch=getch();
+    cleardevice();
+    setcolor(15);
+  }while(ch!='0' && ch!=13 && ch!=27);
+ if(ch==13)
+ {
+  switch(y)
+  {
+   case 200 : return 1;
+   case 250 : return 2;
+   case 300 : return 3;
+   case 350 : exit(0);
+  }
+ }
+}
+
+void main()
+{
+int ch;
+int gd=DETECT,gm;
+initgraph(&gd,&gm,"c:\\tc\\bgi");
+
+ch=options();
+cout<<ch;
+getch();
+closegraph();
+}
+
+
+
+
+
